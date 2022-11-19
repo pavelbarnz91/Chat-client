@@ -1,0 +1,29 @@
+.sms {
+    width: 80%;
+    margin-bottom: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: flex-start;
+}
+
+.sms__header {
+    font-size: 12px;
+    color: grey;
+}
+
+.my-sms {
+    width: 80%;
+    margin-bottom: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    align-self: flex-end;
+}
+
+.sms__header-me {
+    font-size: 12px;
+    color: red;
+}

@@ -1,0 +1,154 @@
+.chat {
+    width: 60%;
+    height: 85vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.chat__window {
+    border: 2px solid black;
+    border-radius: 10px;
+    box-sizing: border-box;
+    
+    width: 100%;
+    height: 70%;
+
+    background-color: white;
+    opacity: 0.7;
+
+    display: flex;
+}
+
+.chat__messages-window {
+    width: 72%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    overflow: auto;
+}
+
+.chat__users {
+    width: 28%;
+    border-left: 1px dashed black;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.chat__users__title {
+    display: block;
+    border-bottom: 1px dashed black;
+}
+
+.chat__users-online {
+    width: 100%;
+    height: 90%;
+    padding: 0 10px;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.me {
+    color: red;
+}
+
+.chat__enter-message-box {
+    border: 2px solid black;
+    border-radius: 10px;
+    box-sizing: border-box;
+    
+    width: 100%;
+    height: 20%;
+
+    background-color: lightgreen;
+
+    display: flex;
+}
+
+.enter-message-box__input-box {
+    padding: 10px;
+    width: 72%;
+}
+
+.input-box__input {
+    width: 100%;
+    height: 100%;
+
+    padding: 5px;
+    box-sizing: border-box;
+
+    resize: none;
+    font-family: 'comic sans ms';
+}
+
+.input-box__input:focus {
+    outline: none;
+}
+
+.enter-message-box__btn-box {
+    width: 28%;
+    padding: 10px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.enter-message-box__btn-box button:hover {
+    background-color: rgb(221, 157, 96);
+}
+.enter-message-box__btn-box button:active {
+    background-color: rgb(163, 108, 56);
+}
+
+.btn-box__send-btn, .btn-box__clear-btn {
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(243, 183, 127);
+}
+
+.btn-box__send-btn {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: 1px solid black;
+}
+
+.btn-box__clear-btn {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.chat__exit-btn-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.chat__exit-btn {
+    width: 150px;
+    height: 40px;
+
+    border-radius: 10px;
+    border: 1px solid black;
+    box-sizing: border-box;
+
+    text-transform: uppercase;
+
+    background-color: red;
+
+    cursor: pointer;
+}
+.chat__exit-btn:hover {
+    background-color: rgb(224, 0, 0);
+}
+.chat__exit-btn:active {
+    background-color: rgb(117, 0, 0);
+}

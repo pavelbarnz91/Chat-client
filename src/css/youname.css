@@ -1,0 +1,68 @@
+.youname__wrapper {
+    background-color: black;
+    opacity: 0.6;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.youname {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #fff;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.youname__title {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.youname__input {
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.youname__input:focus {
+    outline: none;
+}
+.youname__input-red {
+    border: 1px solid red;
+}
+
+.youname__btn {
+    width: 60%;
+    height: 30px;
+    font-family: 'comic sans ms';
+    cursor: pointer;
+    background-color: lightgreen;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.youname__btn:hover {
+    background-color: rgb(101, 212, 101);
+}
+.youname__btn:active {
+    background-color: white;
+}
+
+.youname__error {
+    font-size: 12px;
+    color: red;
+
+    margin-top: 10px;
+}

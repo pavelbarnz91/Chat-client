@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'comic sans ms';
+    src: url('../fonts/ComicSansMS.woff');
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+    background: url('../img/background.jpg') center/cover no-repeat;
+
+    font-family: 'comic sans ms';
+}
+
+.wrapper {
+   width: 100%;
+   min-height: 100vh;
+   
+   border: 1px solid black;
+   box-sizing: border-box;
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
