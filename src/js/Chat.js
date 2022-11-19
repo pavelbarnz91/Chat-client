@@ -13,7 +13,7 @@ export default class Chat {
   }
 
   startChat() {
-    const ws = new WebSocket('wss://chatserver0.herokuapp.com');
+    const ws = new WebSocket('WSS://chatserver0.herokuapp.com');
 
     this.exitBtn.addEventListener('click', () => {
       ws.send(JSON.stringify({ del: this.user }));
